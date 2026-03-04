@@ -1,0 +1,22 @@
+{
+  "name": "meta-ads-manager",
+  "version": "1.0.0",
+  "description": "Integração com Meta Marketing API para gerenciar anúncios no Facebook/Instagram",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "campaigns:list": "node src/index.js campaigns list",
+    "campaigns:create": "node src/index.js campaigns create",
+    "adsets:list": "node src/index.js adsets list",
+    "adsets:create": "node src/index.js adsets create",
+    "ads:list": "node src/index.js ads list",
+    "ads:create": "node src/index.js ads create"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "facebook-nodejs-business-sdk": "^20.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
