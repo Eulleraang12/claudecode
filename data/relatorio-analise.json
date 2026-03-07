@@ -1,0 +1,202 @@
+{
+  "titulo": "Relatório de Análise de Campanhas Meta/Instagram",
+  "data_geracao": "2026-03-07",
+  "periodo_analise": "Tempo máximo disponível (lifetime)",
+  "conta": "Instagram Ads Account",
+  "moeda": "BRL",
+  "resumo_executivo": {
+    "total_investido": 227972.50,
+    "total_impressoes": 5120300,
+    "total_alcance": 2313690,
+    "total_cliques": 85895,
+    "total_conversoes": 2804,
+    "cpc_medio": 2.65,
+    "ctr_medio": 1.68,
+    "cpm_medio": 44.52,
+    "cpa_medio": 81.30,
+    "campanhas_ativas": 4,
+    "campanhas_pausadas": 1
+  },
+  "analise_por_campanha": [
+    {
+      "campanha": "Campanha Tráfego - Stories",
+      "objetivo": "TRAFFIC",
+      "status": "ACTIVE",
+      "investimento": 42580.50,
+      "metricas_chave": {
+        "impressoes": 487320,
+        "alcance": 198450,
+        "cliques": 14619,
+        "cpc": 2.91,
+        "ctr": 3.0,
+        "cpm": 87.38,
+        "frequencia": 2.46,
+        "conversoes": 438,
+        "cpa": 97.22
+      },
+      "avaliacao": "ATENÇÃO",
+      "pontos_fortes": [
+        "CTR de 3.0% acima da média do mercado",
+        "Boa taxa de cliques no link (2.32%)"
+      ],
+      "pontos_fracos": [
+        "CPA de R$97.22 elevado para campanha de tráfego",
+        "CPM de R$87.38 alto para objetivo de tráfego"
+      ],
+      "recomendacoes": [
+        "Revisar segmentação do público para reduzir CPM",
+        "Testar audiências lookalike baseadas em visitantes do site",
+        "Otimizar landing page para melhorar taxa de conversão"
+      ]
+    },
+    {
+      "campanha": "Campanha Conversão - Feed",
+      "objetivo": "SALES",
+      "status": "ACTIVE",
+      "investimento": 68450.80,
+      "metricas_chave": {
+        "impressoes": 652180,
+        "alcance": 245670,
+        "cliques": 18261,
+        "cpc": 3.75,
+        "ctr": 2.8,
+        "cpm": 104.96,
+        "frequencia": 2.65,
+        "conversoes": 1245,
+        "cpa": 54.98
+      },
+      "avaliacao": "BOM",
+      "pontos_fortes": [
+        "Melhor CPA entre campanhas de conversão (R$54.98)",
+        "Alto volume de vendas (1.245)",
+        "Boa relação add-to-cart/purchase (3890/1245 = 3.12:1)"
+      ],
+      "pontos_fracos": [
+        "CPC de R$3.75 pode ser otimizado",
+        "Frequência de 2.65 se aproximando do limite"
+      ],
+      "recomendacoes": [
+        "Escalar gradualmente (+15% ao dia) mantendo CPA",
+        "Implementar retargeting para 3890 add-to-cart sem purchase",
+        "Testar criativos de urgência/escassez para melhorar conversão"
+      ]
+    },
+    {
+      "campanha": "Campanha Engajamento - Reels",
+      "objetivo": "ENGAGEMENT",
+      "status": "ACTIVE",
+      "investimento": 28920.40,
+      "metricas_chave": {
+        "impressoes": 1245680,
+        "alcance": 567890,
+        "cliques": 24913,
+        "cpc": 1.16,
+        "ctr": 2.0,
+        "cpm": 23.22,
+        "frequencia": 2.19,
+        "conversoes": 156,
+        "cpa": 185.39
+      },
+      "avaliacao": "EXCELENTE",
+      "pontos_fortes": [
+        "Melhor CPC (R$1.16) e CPM (R$23.22) de todas as campanhas",
+        "890K visualizações de vídeo - excelente para brand awareness",
+        "Alta taxa de saves (6.780) indica conteúdo de valor",
+        "42.100 engajamentos em posts"
+      ],
+      "pontos_fracos": [
+        "CPA alto (R$185.39) mas esperado para objetivo de engajamento",
+        "CTR de link baixo (0.70%) - público engaja mas não clica"
+      ],
+      "recomendacoes": [
+        "Usar público de engajamento para criar audiences de retargeting",
+        "Continuar investindo em Reels - melhor custo-benefício",
+        "Testar variações do conteúdo top performer"
+      ]
+    },
+    {
+      "campanha": "Campanha Reconhecimento - Marca",
+      "objetivo": "AWARENESS",
+      "status": "PAUSED",
+      "investimento": 52340.20,
+      "metricas_chave": {
+        "impressoes": 2345670,
+        "alcance": 1123450,
+        "cliques": 16419,
+        "cpc": 3.19,
+        "ctr": 0.7,
+        "cpm": 22.32,
+        "frequencia": 2.09,
+        "conversoes": 89,
+        "cpa": 588.09
+      },
+      "avaliacao": "REVISAR",
+      "pontos_fortes": [
+        "CPM baixo (R$22.32) adequado para awareness",
+        "Maior alcance entre todas campanhas (1.1M)",
+        "1.56M visualizações de vídeo"
+      ],
+      "pontos_fracos": [
+        "R$52.340 investidos com apenas 89 conversões",
+        "CTR muito baixo (0.7%) indica baixa relevância do criativo",
+        "CPA de R$588.09 é insustentável"
+      ],
+      "recomendacoes": [
+        "Reativar apenas com criativos completamente novos",
+        "Migrar 50% do orçamento para campanhas de conversão",
+        "Criar funil: awareness → retargeting → conversão",
+        "Testar formatos mais engajadores (Reels, Carrossel)"
+      ]
+    },
+    {
+      "campanha": "Campanha Leads - Formulário",
+      "objetivo": "LEADS",
+      "status": "ACTIVE",
+      "investimento": 35680.60,
+      "metricas_chave": {
+        "impressoes": 389450,
+        "alcance": 178230,
+        "cliques": 11683,
+        "cpc": 3.05,
+        "ctr": 3.0,
+        "cpm": 91.62,
+        "frequencia": 2.19,
+        "conversoes": 876,
+        "cpa": 40.73
+      },
+      "avaliacao": "EXCELENTE",
+      "pontos_fortes": [
+        "Melhor CPA geral (R$40.73 por lead)",
+        "CTR alto de 3.0%",
+        "876 leads gerados com custo eficiente",
+        "Boa taxa de landing page view (8.950/11.683 = 76.6%)"
+      ],
+      "pontos_fracos": [
+        "CPM de R$91.62 acima da média"
+      ],
+      "recomendacoes": [
+        "ESCALAR: Aumentar budget em 20-30% imediatamente",
+        "Testar lead forms nativos do Instagram para reduzir friction",
+        "Criar audiences similares baseadas nos 876 leads",
+        "Implementar lead scoring para qualificar leads"
+      ]
+    }
+  ],
+  "ranking_eficiencia": [
+    {"posicao": 1, "campanha": "Campanha Leads - Formulário", "cpa": 40.73, "nota": "A+"},
+    {"posicao": 2, "campanha": "Campanha Conversão - Feed", "cpa": 54.98, "nota": "A"},
+    {"posicao": 3, "campanha": "Campanha Tráfego - Stories", "cpa": 97.22, "nota": "B"},
+    {"posicao": 4, "campanha": "Campanha Engajamento - Reels", "cpa": 185.39, "nota": "B-"},
+    {"posicao": 5, "campanha": "Campanha Reconhecimento - Marca", "cpa": 588.09, "nota": "D"}
+  ],
+  "recomendacoes_gerais": [
+    "PRIORIDADE 1: Escalar Campanha Leads - Formulário (melhor ROI)",
+    "PRIORIDADE 2: Escalar Campanha Conversão - Feed com retargeting",
+    "PRIORIDADE 3: Redistribuir orçamento da campanha Awareness para conversão",
+    "PRIORIDADE 4: Otimizar criativos da Campanha Tráfego para reduzir CPA",
+    "PRIORIDADE 5: Usar audiência de engajamento (Reels) como topo de funil",
+    "GERAL: Implementar funil completo: Reels (awareness) → Stories (tráfego) → Feed (conversão)",
+    "GERAL: Criar audiências lookalike dos top performers para escalar",
+    "GERAL: A/B testar criativos semanalmente para evitar ad fatigue"
+  ]
+}

@@ -1,22 +1,18 @@
 {
-  "name": "meta-ads-manager",
-  "version": "1.0.0",
-  "description": "Integração com Meta Marketing API para gerenciar anúncios no Facebook/Instagram",
-  "main": "src/index.js",
+  "name": "meta-ads-dashboard",
+  "version": "2.0.0",
+  "description": "Dashboard de análise de campanhas Meta/Instagram com métricas e recomendações",
+  "private": true,
   "scripts": {
-    "start": "node src/index.js",
-    "campaigns:list": "node src/index.js campaigns list",
-    "campaigns:create": "node src/index.js campaigns create",
-    "adsets:list": "node src/index.js adsets list",
-    "adsets:create": "node src/index.js adsets create",
-    "ads:list": "node src/index.js ads list",
-    "ads:create": "node src/index.js ads create"
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start",
+    "fetch-data": "node scripts/fetch-meta-data.js"
   },
   "dependencies": {
-    "dotenv": "^16.4.5",
-    "facebook-nodejs-business-sdk": "^20.0.3"
-  },
-  "engines": {
-    "node": ">=18.0.0"
+    "next": "^14.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recharts": "^2.12.0"
   }
 }
